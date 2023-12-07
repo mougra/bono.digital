@@ -3,6 +3,7 @@
 @import 'fonts';
 @import 'settings';
 @import 'vendor';
+
 .burger {
   @include burger;
 }
@@ -15,11 +16,11 @@
 @import './components/footer';
 @import './components/media';
 
-@keyframes menuHide {
-  from {
-    height: 100%;
-  }
-  to {
-    height: 0;
-  }
-}
+// @keyframes menuHide {
+//   from {
+//     height: 100%;
+//   }
+//   to {
+//     height: 0;
+//   }
+// }

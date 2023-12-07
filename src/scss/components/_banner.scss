@@ -2,7 +2,7 @@
   position: relative;
 
   margin-top: 66px;
-  padding: 32px 0 86px;
+  padding: 32px 0 83px;
   background-color: #0a2756;
   &__group-svg {
     height: 361px;
@@ -39,18 +39,23 @@
   }
   &__reg {
     background: #007dfe;
-    padding: 26px 45px;
+    padding: 26px 42px;
     border: none;
-
     text-align: center;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
-    line-height: 140%; /* 19.6px */
+    line-height: 140%;
     letter-spacing: 9.38px;
     text-transform: uppercase;
-
-    margin-bottom: 48px;
+    margin-bottom: 25px;
+    color: #fff;
+    transition: all 0.5s linear;
+    &:hover {
+      cursor: pointer;
+      background: #fff;
+      color: #007dfe;
+    }
   }
   &__title {
     font-size: 20px;
@@ -65,7 +70,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 140%; /* 25.2px */
-    margin-bottom: 48px;
+    margin-bottom: 45px;
     max-width: 510px;
   }
   &__scroll {

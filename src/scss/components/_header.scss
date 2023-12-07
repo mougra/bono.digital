@@ -38,16 +38,19 @@
       margin: 0;
       padding: 0;
       li {
-        color: #0a2756;
         font-family: var(--font-family);
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        transition: all 0.5s linear;
         a {
           font-size: 16px;
           line-height: 16px;
-          color: #515155;
+          color: #0a2756;
+          &:hover {
+            color: #007dfe;
+          }
         }
       }
     }
@@ -55,9 +58,8 @@
   &__button-reg {
     border: 1px solid #007dfe;
     background: #fff;
-    padding: 8px 28px 9px 32px;
+    padding: 8px 30px 9px 32px;
     color: #007dfe;
-    font-family: Helvetica Neue;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -67,6 +69,7 @@
     &:hover {
       color: #fff;
       background: #007dfe;
+      cursor: pointer;
     }
   }
   &__social {

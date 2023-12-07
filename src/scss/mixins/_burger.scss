@@ -41,6 +41,7 @@
     border-radius: 10px;
   }
   &--active {
+    margin-right: 17px;
     &::before {
       top: 50%;
       transform: rotate(45deg);
