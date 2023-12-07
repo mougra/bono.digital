@@ -1,0 +1,25 @@
+@import 'vars';
+@import 'mixins';
+@import 'fonts';
+@import 'settings';
+@import 'vendor';
+.burger {
+  @include burger;
+}
+
+// подключения компонентов страницы
+@import './components/menu';
+@import './components/header';
+@import './components/banner';
+@import './components/speakers';
+@import './components/footer';
+@import './components/media';
+
+@keyframes menuHide {
+  from {
+    height: 100%;
+  }
+  to {
+    height: 0;
+  }
+}

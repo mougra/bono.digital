@@ -1,0 +1,31 @@
+@include tablet {
+  .header {
+    &__devider {
+      opacity: 0;
+    }
+    &__nav {
+      display: none;
+    }
+    &__button-reg {
+      display: none;
+    }
+    &__social {
+      display: none;
+    }
+  }
+  .burger {
+    display: block;
+  }
+
+  .navigation {
+    display: flex;
+    flex-flow: column;
+    gap: 35px;
+    &.menu--active {
+      transform: translateX(0);
+      display: flex;
+      flex-flow: column;
+      gap: 35px;
+    }
+  }
+}
