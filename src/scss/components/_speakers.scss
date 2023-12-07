@@ -1,6 +1,19 @@
 .speakers {
   max-width: 1086px;
   margin: 72px auto 142px;
+  position: relative;
+
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+
+  &__anchor {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: calc(-72px - 66px);
+  }
   .container {
     padding: 0 120px;
   }
