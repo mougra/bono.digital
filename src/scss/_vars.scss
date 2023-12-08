@@ -1,7 +1,11 @@
 :root {
   --font-family: 'Helvetica Neue', sans-serif;
   --content-width: 1140px;
+  --content-main-width: 800px;
   --container-offset: 25px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  --container-main-width: calc(
+    var(--content-main-width) + (var(--container-offset) * 2)
+  );
   --light-color: #fff;
 }

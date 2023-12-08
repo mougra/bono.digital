@@ -1,7 +1,7 @@
 {
   "name": "bono-digital",
   "version": "0.1.0",
-  "homepage": "https://mougra/dispex",
+  "homepage": "https://mougra/bono-digital",
   "description": "Gulp+Webpack+Babel",
   "main": "gulpfile.js",
   "type": "module",
@@ -53,6 +53,7 @@
     "gulp-webp-html-nosvg": "^1.0.1",
     "gulp-webpcss": "^1.1.1",
     "gulp-zip": "^5.1.0",
+    "postcss": "^8.4.32",
     "postcss-preset-env": "^8.5.0",
     "prettier": "2.8.8",
     "sass": "*1.62.1",

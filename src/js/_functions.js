@@ -38,7 +38,7 @@ const swiperSpeakers = new Swiper('.speakers__slider', {
     },
     768: {
       slidesPerView: 2,
-      spaceBetween: 42,
+      spaceBetween: 38,
       pagination: {
         el: '.swiper-pagination',
         clickable: true,

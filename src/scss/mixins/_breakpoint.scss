@@ -7,7 +7,7 @@
 // }
 
 @mixin tablet {
-  @media (max-width: (1240px)) {
+  @media (max-width: (1239px)) {
     @content;
   }
 }
@@ -19,7 +19,7 @@
 // }
 
 @mixin small-tablet {
-  @media (max-width: (768px)) {
+  @media (max-width: (767px)) {
     @content;
   }
 }
